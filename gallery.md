@@ -2,4 +2,7 @@
 
 ## Sometimes I take photos
 
-![alt 属性文本](/assets/img/IMG_9466.jpg)
+![第一张图](/assets/img/IMG_9466.jpg) 
+![第一张图](/assets/img/IMG_9085.jpg) 
+![第一张图](/assets/img/IMG_8773-2.jpg)
+![第一张图](/assets/img/IMG_9584-2.jpg)
