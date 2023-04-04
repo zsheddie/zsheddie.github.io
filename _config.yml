@@ -13,7 +13,7 @@ mode: light # default theme "dark" | "light"
 author:
   name: Eddie Zhang # author name
   bio: >- # tell to the world
-    Hi, this is Zhang, I'm a student at KIT.
+    Hi, this is Zhang. I'm a student at KIT.
   #meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
   username: username # general username
   github: github_username # github username
