@@ -1,6 +1,6 @@
 # Wellcome to my gallery!
 
-### Sometimes I take photos...
+## Sometimes I take photos...
 
 ![第一张图](/assets/img/IMG_9466.jpg)
 
