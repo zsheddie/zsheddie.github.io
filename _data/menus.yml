@@ -3,6 +3,10 @@
   external: false
 
 - title: gallery
+  url: /gallery/
+  external: false
+
+- title: archieve
   url: /archive/
   external: false
 
