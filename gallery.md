@@ -63,8 +63,6 @@ title: Welcome to my gallery!
 
 ![第30张图](/assets/img/IMG_9490-4.jpg)
 
-![第31张图](/assets/img/IMG_9494.jpg)
-
 ![第32张图](/assets/img/IMG_9504.jpg)
 
 ![第33张图](/assets/img/IMG_9507.jpg)
