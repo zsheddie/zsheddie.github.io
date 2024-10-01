@@ -11,7 +11,7 @@
   external: false
 
   - title: delete
-  url: /_pages/About
+  url: /_pages/About/
   external: false
 
 - title: unsplash
