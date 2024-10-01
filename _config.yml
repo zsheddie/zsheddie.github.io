@@ -11,7 +11,7 @@ mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Eddie Zhang # author name
+  name: Shuheng Zhang # author name
   bio: >- # tell to the world
     Hi, this is Zhang. I'm a student at KIT.
   #meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.

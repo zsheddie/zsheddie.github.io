@@ -10,6 +10,10 @@
   url: /archive/
   external: false
 
+  - title: delete
+  url: /_pages/About
+  external: false
+
 - title: unsplash
   url: https://unsplash.com/@eddie2023
   external: true 
