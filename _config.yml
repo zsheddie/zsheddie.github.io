@@ -19,7 +19,8 @@ author:
   github: github_username # github username
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
-  email: zsheddie@gmail.com # email adress
+  email: >-
+    zsheddie@gmail.com # email adress
   avatar: /assets/img/IMG_94661.jpg # change with your own avatar
 
 # URL settings
