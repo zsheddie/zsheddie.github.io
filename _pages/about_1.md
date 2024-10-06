@@ -15,4 +15,4 @@ I love watching movies in my free time. I'm planning to create a review section 
 
 **A portrait of me ✨**
 
-- 🏞️🎞️🪛📷🎥🥐🚗☕🌏
+- 🏞️🎞️🪛📷🎥🥐🚗☕🌏☮️
