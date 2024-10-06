@@ -11,7 +11,7 @@ layout: gallery_1
 </div>
 
 <div class="gallery-container">
-  {% for image in site.data.image.images_China %}
+  {% for image in site.data.image_China.images %}
     <div class="gallery-item">
       <!-- <img src="{{ image.url }}" alt="{{ image.alt }}"> -->
       <a href="{{ image.url }}" data-lightbox="gallery" data-title="{{ image.alt }}">
