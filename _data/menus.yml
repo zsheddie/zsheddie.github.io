@@ -6,17 +6,18 @@
   url: /gallery/
   external: false
 
-- title: archieve
-  url: /archive/
-  external: false
+#- title: archive
+#  url: /archive/
+#  external: false
 
 - title: unsplash
   url: https://unsplash.com/@eddie2023
   external: true 
 
 - title: about
-  url: /about/
+  url: /about_1/
   external: false # set true if you using external link, see below
+
 
 # Example:
 # - title: github

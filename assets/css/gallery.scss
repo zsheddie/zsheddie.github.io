@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Gallery Container */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+    padding: 15px;
+    padding-left: 15px;  /* 或者调整左右填充以确保一致 */
+    padding-right: 15px; /* 添加此行以设置左右填充 */
+    margin: auto auto; /* 保证水平居中 */
+  }
+  
+  /* Gallery Item */
+  .gallery-item {
+    background: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Gallery Item Image */
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px;
+    object-fit: cover;
+  }
+  

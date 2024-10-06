@@ -1,5 +1,8 @@
 # Site settings
-title: Zhang's Web # site title
+title: home  # site title
+first_name: Shuheng
+middle_name:
+last_name: Zhang
 description: >- # site description
   He's writing in Bahasa about web technology and experience as a journal 
   for documentation things that he learned, meet him <a href="https://github.com/" target="_blank" rel="noopener">@github</a>.
@@ -11,21 +14,21 @@ mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Shuheng Zhang # author name
+  name: NAMEEEEEE # author name
   bio: >- # tell to the world
-    Hi, this is Zhang. I'm a student at KIT.
+    Hi, this is Zhang. I'm a student at KIT. asfasfassffasfs
   #meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
   username: username # general username
   github: github_username # github username
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
   email: zsheddie@gmail.com # email adress
-  avatar: /assets/img/IMG_94661.jpg # change with your own avatar
+  avatar: /assets/img/Austrial/IMG_9466.jpg # change with your own avatar
 
 # URL settings
 url: "https://klise.now.sh" #
 baseurl:
-permalink: /:title/
+# permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
 
@@ -45,7 +48,8 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: post
+      # layout: post
+      # layout: about_2
       comments: false
 
 # Jekyll Compose default front matter
@@ -70,6 +74,7 @@ sass:
 include:
   - _redirects
   - .htaccess
+  - _pages
 
 exclude:
   - CNAME
@@ -90,3 +95,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+
+# watch: true

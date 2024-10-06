@@ -1,0 +1,48 @@
+---
+layout: page_gallery
+---
+
+<!-- gallery.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    <!-- Image Gallery Section -->
+    {{ content }} 
+  </article>
+</div>
+
+<!-- Include Masonry JS and Initialize -->
+<script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+<script>
+  window.onload = function() {
+    var elem = document.querySelector('.gallery-container');
+    var msnry = new Masonry(elem, {
+      itemSelector: '.gallery-item',
+      columnWidth: '.gallery-item',
+      percentPosition: true
+    });
+  };
+</script>
+
+<!-- Add basic styles for Masonry layout -->
+<style>
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  .gallery-item {
+    width: calc(33.333% - 10px); /* Three items per row with margins */
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .gallery-item img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+  }
+</style>

@@ -1,14 +1,26 @@
 // Navbar
 .navbar {
   height: auto;
-  max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
-  max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
+  max-width: 70%;
+  //max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
+  //max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
   position: relative;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid $light;
   padding: $spacing-full - 15px $spacing-full;
   @extend %clearfix;
+}
+
+a, button {
+  outline: none; /* 移除点击时的边框 */
+  box-shadow: none; /* 防止使用 box-shadow 代替 outline */
+}
+
+a:focus, a:active, 
+button:focus, button:active {
+  outline: none; /* 确保获得焦点时也没有边框 */
+  box-shadow: none; /* 防止阴影代替 outline */
 }
 
 // Navigation
@@ -314,6 +326,13 @@
     color: $black;
     text-shadow: 1px 0px 0px $text-link-blue;
   }
+  .large_title {
+    font-size: 8em;
+    font-weight: $bold-weight;
+    line-height: 1.1;
+    color: $black;
+    text-shadow: 1px 0px 0px $text-link-blue;
+  }
   .phrase {
     color: $text-base-color;
   }
@@ -377,4 +396,41 @@
     border: 1px solid rgba(128, 128, 128, 0.1);
     background-color: rgba(128, 128, 128, 0.1);
   }
+}
+
+// profile
+.profile {
+  float: right;
+  img {
+    width: 100%;
+    height: auto;
+    float: right;
+    max-height: 300px; 
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.gallery-post {
+  width: 100%; // 使画廊页面的宽度为100%
+  max-width: none; // 移除最大宽度限制
+  margin: 0; // 移除外边距
+  padding: 0; // 移除内边距
+}
+
+.gallery-container {
+  width: 100%; // 确保画廊容器宽度为100%
+  max-width: none; // 移除最大宽度限制
+}
+
+.large-font {
+  font-size: 2em; /* 根据需要调整字体大小 */
+}
+
+.font-weight-lighterrr {
+  font-weight: 300; /* 设置为较轻的字体 */
+}
+
+.font-weight-bolddd {
+  font-weight: 580; /* 设置为较轻的字体 */
 }

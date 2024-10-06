@@ -1,0 +1,62 @@
+---
+layout: page_gallery
+---
+
+<!-- gallery.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    <!-- Image Gallery Section -->
+    {{ content }} 
+  </article>
+</div>
+
+<!-- Include Masonry JS and Initialize -->
+<script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+<script>
+  window.onload = function() {
+    var elem = document.querySelector('.album-container');
+    var msnry = new Masonry(elem, {
+      itemSelector: '.album-item',
+      columnWidth: '.album-item',
+      percentPosition: true
+    });
+  };
+</script>
+
+<!-- Add basic styles for Masonry layout -->
+<style>
+  .album-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .album-item {
+    width: calc(50% - 20px); /* Three items per row with margins */
+    padding: 10px;
+    box-sizing: border-box; 
+    text-align: left; /* 文字位置*/
+    margin-bottom: 20px;
+  }
+  .album-item img {
+    width: 100%;
+    height: auto 10/7; /* 设置固定高度 */
+    /*object-fit: cover;  裁剪图片，保持比例，覆盖整个区域 */
+    display: block; 
+    border-radius: 5px;
+    transition: transform 0.3s; /* 添加动画效果 */
+  }
+  .album-item:hover img {
+  transform: scale(1.02); 
+  }
+  .album-item h2 {
+  margin-top: 10px;
+  text-align: left; /* Center the text inside the item */
+  }
+</style>
