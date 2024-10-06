@@ -405,7 +405,8 @@ button:focus, button:active {
     width: 100%;
     height: auto;
     float: right;
-    max-height: 300px; 
+    max-width: 50%;
+    //max-height: 300px; 
     border-radius: 5px;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
   }
