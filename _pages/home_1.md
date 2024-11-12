@@ -11,7 +11,7 @@ profile:
   image_circular: true
   image: 20241005135907.jpg
   address: >
-    <p> Me (the left one) </p>
+    <p> Me (left) </p>
     
 
 news: false  # includes a list of news items
