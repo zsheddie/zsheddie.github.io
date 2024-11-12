@@ -26,7 +26,8 @@ author:
   avatar: /assets/img/Austrial/IMG_9466.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+# url: "https://klise.now.sh" #
+url: "https://zsheddie.github.io/"
 baseurl:
 # permalink: /:title/
 google_analytics: # leave it blank if not wish
