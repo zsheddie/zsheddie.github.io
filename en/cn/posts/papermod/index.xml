@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PaperMod on Shuheng Zhang</title>
-    <link>https://zsheddie.github.io/en/cn/posts/papermod/</link>
+    <link>http://zsheddie.com/en/cn/posts/papermod/</link>
     <description>Recent content in PaperMod on Shuheng Zhang</description>
     <image>
       <title>Shuheng Zhang</title>
-      <url>https://zsheddie.github.io/images/papermod-cover.png</url>
-      <link>https://zsheddie.github.io/images/papermod-cover.png</link>
+      <url>http://zsheddie.com/images/papermod-cover.png</url>
+      <link>http://zsheddie.com/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.147.5</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://zsheddie.github.io/en/cn/posts/papermod/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://zsheddie.com/en/cn/posts/papermod/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
