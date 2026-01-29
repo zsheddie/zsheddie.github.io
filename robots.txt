@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://zsheddie.github.io/sitemap.xml
